@@ -1,0 +1,103 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #1a2a6c; /* Deep Blue */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Styling for the login container */
+.login-container {
+    padding: 30px;
+    background-color: #2e3f88; /* Slightly lighter blue */
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: #ff9800; /* Vivid Orange */
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    color: #ff9800; /* Vivid Orange */
+    margin-bottom: 5px;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #1a2a6c; /* Deep Blue */
+    border: 2px solid #ff9800; /* Orange Border */
+    border-radius: 25px;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ffa726; /* Lighter Orange on Focus */
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ff9800; /* Orange Button */
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #fb8c00; /* Slightly Darker Orange on Hover */
+}
+
+/* Paragraph and link styling */
+p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #e0e0e0; /* Light Gray for readability */
+}
+
+a {
+    color: #ff9800; /* Orange Links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error message styling */
+#error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
